@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
-    private float speed = 30;
+    [SerializeField] private float speed = 15;
     private Pleyer_Controller pc;
     private float leftBound = -15;
     private void Start()
